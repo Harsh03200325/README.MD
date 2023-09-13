@@ -1,0 +1,23 @@
+import warnings
+
+warnings.filterwarnings("ignore")
+
+warnings.simplefilter(action='ignore', category=FutureWarning)
+
+https://raw.githubusercontent.com/Code-Unnati/Advance-Course/master/Module-1/Unit-2/Unit-2.2/ChurnData.csv
+
+import pandas as pd
+
+from matplotlib import pyplot as plt
+
+import numpy as np
+
+from sklearn.linear_model import LogisticRegression
+
+
+
+churn_df = pd.read_csv("https://raw.githubusercontent.com/Code-Unnati/Advance-Course/master/Module-1/Unit-2/Unit-2.2/ChurnData.csv")
+
+churn_df
+
+
